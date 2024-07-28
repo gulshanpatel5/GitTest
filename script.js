@@ -1,0 +1,12 @@
+const hrEle = document.querySelector(".hr")
+const minEle = document.querySelector(".min")
+const secEle = document.querySelector(".sec")
+
+setInterval(()=>{
+    let date = new Date()
+    hr = date.getHours()*30
+    min = date.getMinutes()*6
+    sec = date.getSeconds()*6
+
+    hrEle.style.transform = `rotatez(${(hr)} + min/12}deg)`
+})
