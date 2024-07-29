@@ -8,5 +8,8 @@ setInterval(()=>{
     min = date.getMinutes()*6
     sec = date.getSeconds()*6
 
-    hrEle.style.transform = `rotatez(${(hr)} + min/12}deg)`
+    hrEle.style.transform = `rotatez(${(hr) + min/12}deg)`
+
+    minEle.style.transform = `rotatez(${min}deg)`
+    secEle.style.transform = `rotatez(${sec}deg)`
 })

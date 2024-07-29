@@ -42,9 +42,9 @@ body{
     content: "";
     width: 10px;
     height: 10px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
-    border: 2px rgb(173, 13, 13);
+    border: 2px rgb(91, 25, 25);
 }
 
 .hr, .min, .sec{
@@ -88,7 +88,7 @@ body{
     position: absolute ;
     width: 2px;
     height: 130px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(173, 30, 30);
     z-index: 3;
 }
 
